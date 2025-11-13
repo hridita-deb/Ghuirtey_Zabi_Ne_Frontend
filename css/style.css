@@ -1,0 +1,149 @@
+/* ---------------- General Body ---------------- */
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 46, 114, 0.918); 
+   
+
+
+
+   color: #ffffff;
+}
+
+/* ---------------- Header ---------------- */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(0, 51, 102, 0.7); /* semi-transparent deep sea blue */
+   /*   background-image: url("../images/jaflong.jpg"); /* header image */
+    background-size: cover;       /* cover entire header area */
+    background-position: center;  /* center image */
+    background-repeat: no-repeat;*/
+
+    color: #fdfffd; /* bright green text for contrast */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    border-bottom: 2px solid #00ff99;
+}
+
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+/* ---------------- Welcome Section ---------------- */
+#welcome {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+#welcome h2 {
+    color: #fcfcfc;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#welcome p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+/* ---------------- Search Bar ---------------- */
+#search {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#search input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border: 2px solid #006400;
+    border-radius: 5px;
+    outline: none;
+}
+
+#search input:focus {
+    border-color: #004d00;
+}
+
+#search button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #006400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#search button:hover {
+    background-color: #004d00;
+}
+
+/* ---------------- Popular Places ---------------- */
+#popular {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+#popular h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fdfdfd;
+}
+
+.places {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.place {
+    border: 2px solid #006400;
+    padding: 10px;
+    width: 350px;
+    border-radius: 15px;
+    background-color: #e0f7ea; /* light greenish */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.place img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.place p {
+    font-size: 25px;
+    margin: 10px 0 0 0;
+    font-weight: bold;
+    color: #004d00;
+}
+
+/* ---------------- Hover Effects ---------------- */
+.place:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+/* ---------------- Responsive Design ---------------- */
+@media (max-width: 768px) {
+    .places {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #search input {
+        width: 200px;
+    }
+}
