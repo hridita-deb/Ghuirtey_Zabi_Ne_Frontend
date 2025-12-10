@@ -193,57 +193,6 @@ nav ul li{
     border-radius: 0px;
 }
 
-/* Locations */
-
-/* .package-title h2{
-    font-size: 40px;
-    font-weight: 650;
-    padding-top: 75px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-.location-content{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.col-content{
-    position: relative;
-    filter: brightness(95%);
-    transition: 0.3s;
-}
-
-.col-content img{
-    margin-bottom: 40px;
-    height: 500px;
-    border-radius: 27px;
-    width: 100%;
-}
-
-.col-content h5{
-    position: absolute;
-    font-size: 25px;
-    color: white;
-    left: 20px;
-    bottom: 105px;
-}
-
-.col-content p{
-    position: absolute;
-    font-size: 20px;
-    color: white;
-    left: 20px;
-    bottom: 80px;
-}
-
-.col-content:hover{
-    filter: brightness(120%);
-    transform: scale(1.03);
-} *//* Locations */
-
-/* Locations */
 
 .package-title h2{
     font-size: 40px;
